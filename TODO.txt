@@ -1,0 +1,8 @@
+**** IMPPORTANT ****
+1: Video freed - Done
+2: Capture snapshot
+3: Link MATLAB script
+
+**** IF THERE IS TIME ****
+1: Link to email script in MATLAB
+2: GUI
