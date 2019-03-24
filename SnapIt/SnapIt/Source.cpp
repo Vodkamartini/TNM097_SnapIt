@@ -17,7 +17,7 @@ using namespace std;
 
 
 
-const int fps = 20;
+const int fps = 60;
 
 int main(int argv, char** argc)
 {

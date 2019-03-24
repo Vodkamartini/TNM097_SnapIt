@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{F7AD90FD-1A41-4E87-9D18-91B21FA1172D}</ProjectGuid>
     <RootNamespace>SnapIt</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -70,9 +70,9 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <ExecutablePath>D:\Program\MatLab\bin\win64;$(ExecutablePath)</ExecutablePath>
-    <IncludePath>D:\Program\MatLab\extern\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Program\MatLab\extern\lib\win64\microsoft;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>C:\Program Files\MATLAB\R2018b\bin\win64;D:\Program\MatLab\bin\win64;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>C:\Program Files\MATLAB\R2018b\extern\include;D:\Program\MatLab\extern\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files\MATLAB\R2018b\extern\lib\win64\microsoft;D:\Program\MatLab\extern\lib\win64\microsoft;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
